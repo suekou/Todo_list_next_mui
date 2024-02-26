@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "todolist2",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-todolist2-dev-181728-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/f755bc5430dc747e941084471a73795bcbce5824"
+}

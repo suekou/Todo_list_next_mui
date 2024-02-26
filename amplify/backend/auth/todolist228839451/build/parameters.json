@@ -1,0 +1,56 @@
+{
+  "identityPoolName": "todolist228839451_identitypool_28839451",
+  "allowUnauthenticatedIdentities": false,
+  "resourceNameTruncated": "todoli28839451",
+  "userPoolName": "todolist228839451_userpool_28839451",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaConfiguration": "OFF",
+  "mfaTypes": [
+    "SMS Text Message"
+  ],
+  "smsAuthenticationMessage": "Your authentication code is {####}",
+  "smsVerificationMessage": "Your verification code is {####}",
+  "emailVerificationSubject": "Your verification code",
+  "emailVerificationMessage": "Your verification code is {####}",
+  "defaultPasswordPolicy": false,
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [],
+  "requiredAttributes": [
+    "email"
+  ],
+  "aliasAttributes": [],
+  "userpoolClientGenerateSecret": false,
+  "userpoolClientRefreshTokenValidity": 30,
+  "userpoolClientWriteAttributes": [
+    "email"
+  ],
+  "userpoolClientReadAttributes": [
+    "email"
+  ],
+  "userpoolClientLambdaRole": "todoli28839451_userpoolclient_lambda_role",
+  "userpoolClientSetAttributes": false,
+  "sharedId": "28839451",
+  "resourceName": "todolist228839451",
+  "authSelections": "identityPoolAndUserPool",
+  "useDefault": "default",
+  "userPoolGroupList": [],
+  "serviceName": "Cognito",
+  "usernameCaseSensitive": false,
+  "useEnabledMfas": true,
+  "authRoleArn": {
+    "Fn::GetAtt": [
+      "AuthRole",
+      "Arn"
+    ]
+  },
+  "unauthRoleArn": {
+    "Fn::GetAtt": [
+      "UnauthRole",
+      "Arn"
+    ]
+  },
+  "breakCircularDependency": true,
+  "dependsOn": []
+}

@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  .title {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  .signOutButton {
+	padding: 8px 16px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.todoItem {
+	display: flex;
+	align-items: center;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+  }
+  
+  .checkbox {
+	margin-right: 10px;
+  }
+  
+  .name {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-right: 10px;
+	flex: 0 0 auto;
+	max-width: calc(10ch + 20px);
+  }
+  
+  .description {
+	font-size: 0.9em;
+	color: #666;
+	flex-grow: 1;
+	max-width: calc(50ch + 20px);
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+  }
