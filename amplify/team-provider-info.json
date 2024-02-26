@@ -17,6 +17,12 @@
       },
       "api": {
         "todolist2": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1d162ipnqnb91",
+          "type": "cicd"
+        }
       }
     }
   }

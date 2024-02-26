@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-todolist2-dev-181728-deployment/amplify-cfn-templates/auth/todolist228839451-cloudformation-template.json",
         "logicalId": "authtodolist228839451"
       },
-      "lastPushTimeStamp": "2024-02-24T09:55:55.863Z",
+      "lastPushTimeStamp": "2024-02-26T01:43:53.934Z",
       "output": {
         "UserPoolId": "us-east-1_Rq8rWSbf1",
         "AppClientIDWeb": "723lmrpnk91ijopjetcnbe228a",
@@ -76,8 +76,15 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-todolist2-dev-181728-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apitodolist2"
       },
-      "lastPushTimeStamp": "2024-02-24T09:56:01.485Z",
+      "lastPushTimeStamp": "2024-02-26T01:43:53.936Z",
       "lastPushDirHash": "FhQpMggiDsDvhsnGX+/vq+SzjGw="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2024-02-26T01:41:35.543Z"
     }
   }
 }
